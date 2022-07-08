@@ -1,1 +1,55 @@
-/
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Number</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <a class="navbar-brand" href="#">Guess The Number</a>
+    </nav>
+
+    <main>
+        <h1 class="banner p-3">Guess!</h1>
+
+        <div class="form-group ">
+            <input id="number-guess" class="form-control form-control-lg" type="number" placeholder="What's your guess?">
+        </div>
+
+        <div id="result">
+            <!-- This is where the result will be-->
+        </div>
+
+        <button type="button" id="number-submit" class="btn btn-lg btn-secondary">Check Me</button>
+        <button type="button" id="restart-game" class="btn btn-lg btn-light">Restart</button>
+
+        <div id="history">
+            <!-- This is where the guess history will be-->
+        </div>
+
+    </main>
+    </div>
+
+    <footer>
+
+        <!-- about -->
+        <div class="about">
+            <h3>ABOUT</h3>
+            <span class="info">A guess the number game</span>
+        </div>
+
+        <!-- source -->
+   
+    
+    </footer>
+    
+    <!-- scripts -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
